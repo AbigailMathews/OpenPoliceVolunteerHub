@@ -1,0 +1,49 @@
+/*
+ Theme Name:   Twenty Twenty Child
+ Description:  Twenty Twenty Child Theme for OpenPolice
+ Author:       Abigail Mathews
+ Author URI:   https://abigailmathews.com
+ Template:     twentytwenty
+ Version:      1.0.0
+ Text Domain:  twentytwenty-child
+*/
+
+/* Post Header */
+.singular .entry-header {
+	background-color: #fff;
+	padding: 2rem 0;
+}
+
+.post-inner {
+	padding-top: 2rem;
+}
+
+/* Post: Single -------------------------- */
+
+/* POST HEADER */
+
+.singular .entry-header {
+  padding: 2rem 0;
+}
+
+/* LP Courses Main page */
+.course-meta.course-meta-secondary {
+  visibility: hidden;
+}
+
+.meta-item.meta-item-categories {
+  visibility: hidden;
+}
+
+.course-price .price {
+  visibility: hidden;
+}
+
+.course-detail-info {
+  margin-bottom: 10px !important;
+  padding: 40px 0 0 0 !important;
+}
+
+.section-header .section-left {
+  padding: 10px;
+}

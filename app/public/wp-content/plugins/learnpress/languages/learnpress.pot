@@ -2458,6 +2458,7 @@ msgstr ""
 
 #: inc/admin/views/meta-boxes/question/settings.php:35
 #: inc/admin/views/quiz/question-meta.php:50
+#: assets/js/dist/frontend/quiz.js:1
 msgid "Explanation"
 msgstr ""
 
@@ -7355,8 +7356,16 @@ msgctxt "course-item-navigation"
 msgid "Prev"
 msgstr ""
 
+#: assets/js/dist/frontend/quiz.js:1
+msgid "Prev"
+msgstr ""
+
 #: templates/single-course/content-item/nav.php:39
 msgctxt "course-item-navigation"
+msgid "Next"
+msgstr ""
+
+#: assets/js/dist/frontend/quiz.js:1
 msgid "Next"
 msgstr ""
 
@@ -7585,5 +7594,5 @@ msgid "Start"
 msgstr ""
 
 #: assets/js/dist/frontend/quiz.js:1
-msgid "Hint:"
+msgid "Hint"
 msgstr ""

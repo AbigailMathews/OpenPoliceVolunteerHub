@@ -10,4 +10,5 @@
 defined( 'ABSPATH' ) || exit;
 ?>
 
-<div class="meta-item"></div>
+<div class="meta-item meta-item-<?php echo $object; ?>"><?php echo $count; ?></div>
+

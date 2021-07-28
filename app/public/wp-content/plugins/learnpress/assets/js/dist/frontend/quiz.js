@@ -1655,7 +1655,7 @@ var Question = /*#__PURE__*/function (_Component) {
             className: "question-explanation-content"
           }, /*#__PURE__*/React.createElement("strong", {
             className: "explanation-title"
-          }, Object(_wordpress_i18n__WEBPACK_IMPORTED_MODULE_3__["__"])('Explanation:', 'learnpress')), /*#__PURE__*/React.createElement("div", {
+          }, Object(_wordpress_i18n__WEBPACK_IMPORTED_MODULE_3__["__"])('Explanation', 'learnpress'), ":"), /*#__PURE__*/React.createElement("div", {
             dangerouslySetInnerHTML: {
               __html: question.explanation
             }
@@ -1666,7 +1666,7 @@ var Question = /*#__PURE__*/function (_Component) {
             className: "question-hint-content"
           }, /*#__PURE__*/React.createElement("strong", {
             className: "hint-title"
-          }, Object(_wordpress_i18n__WEBPACK_IMPORTED_MODULE_3__["__"])('Hint:', 'learnpress')), /*#__PURE__*/React.createElement("div", {
+          }, Object(_wordpress_i18n__WEBPACK_IMPORTED_MODULE_3__["__"])('Hint', 'learnpress'), ":"), /*#__PURE__*/React.createElement("div", {
             dangerouslySetInnerHTML: {
               __html: question.hint
             }

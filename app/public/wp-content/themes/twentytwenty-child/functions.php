@@ -10,4 +10,23 @@ function child_theme_enqueue_styles() {
   );
 }
 
+add_action('after_setup_theme', 'remove_admin_bar');
+function remove_admin_bar() {
+  if (!current_user_can('administrator') && !is_admin() || !current_user_can('editor') || !current_user_can('author')) {
+    show_admin_bar(false);
+  }
+}
+
+function custom_login_redirect( $redirect_to, $request, $user ) {
+  if ( isset( $user->roles ) && is_array( $user->roles ) ) {
+    if ( in_array( 'administrator', $user->roles ) || in_array( 'editor', $user->roles ) || in_array( 'author', $user->roles ) ) {
+      $redirect_to = admin_url();
+    } else {
+      $redirect_to = home_url();
+    }
+  }
+  return $redirect_to;
+}
+add_filter( 'login_redirect', 'custom_login_redirect', 10, 3 );
+
 ?>
